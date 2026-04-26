@@ -88,6 +88,6 @@ public class JwtService implements CommandLineRunner {
         System.out.println("Extracted email: " + extractEmail(token));
         System.out.println("Extracted phone: " + extractPhoneNumber(token));
         System.out.println("Is token valid? " + validateToken(token, "a@b.com"));
-        System.out.println(extractPayload(token,"email").toString());
+        System.out.println(extractPayload(token,"email").toString() );
     }
 }
