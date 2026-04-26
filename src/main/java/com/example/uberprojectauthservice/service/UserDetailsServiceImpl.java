@@ -19,7 +19,7 @@ import java.util.Optional;
 public class UserDetailsServiceImpl implements UserDetailsService {
 
     @Autowired
-    private  PassengerRepository passengerRepository;
+    private PassengerRepository passengerRepository;
 
     public UserDetailsServiceImpl(PassengerRepository passengerRepository) {
         this.passengerRepository = passengerRepository;
